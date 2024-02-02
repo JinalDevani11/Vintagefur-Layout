@@ -1,0 +1,473 @@
+/*============================ responsive header start========================== */
+@media (max-width:991px){
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left:0%;
+        width: 100%;
+        z-index: 100;
+
+    }
+    .navbar-toggler:focus {
+        border: 0 !important;
+        box-shadow: none !important;
+    }
+}
+
+
+
+/*============================ responsive header end========================== */
+
+/* ==========================responsive font on slider start============================ */
+@media (min-width:1200px) and (max-width:2560px) {
+
+    .slider_show>h1 {
+        font-size: 120px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    .slider_show>h1 {
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider_show>h1 {
+        font-size: 50px;
+    }
+}
+/* ==========================responsive font on slider end============================ */
+
+/* ==========================responsive btn on slider start============================ */
+
+@media (min-width:1199px) and (max-width:2560px) {
+
+    #Main_slider.owl-carousel .owl-nav button.owl-prev {
+        background-color: black !important;
+        color: #fff !important;
+        position: absolute;
+        top: 57%;
+        left: 0px;
+        border-radius: 100px;
+        font-size: 30px !important;
+        transition: .3s;
+        height: 85px;
+        width: 85px;
+    }
+
+    #Main_slider.owl-carousel .owl-nav button.owl-next {
+        background-color: black !important;
+        color: #fff !important;
+        position: absolute;
+        top: 57%;
+        right: 0px;
+        border-radius: 100px;
+        font-size: 30px !important;
+        height: 85px;
+        width: 85px;
+    }
+}
+
+/* ==========================responsive btn on slider end============================ */
+
+/* ==========================responsive btn on project start======================== */
+@media  (min-width:992px) and (max-width:2560px){
+    #project.owl-carousel .owl-nav button.owl-next {
+        background-color: black !important;
+        color: #fff !important;
+        position: absolute;
+        top: 38%;
+        right:-40px;
+        border-radius:0 !important;
+        font-size: 35px !important;
+        transition: .3s;
+        height:60px;
+        width:60px;
+    }
+    #project.owl-carousel .owl-nav button.owl-prev {
+        background-color: black !important;
+        color: #fff !important;
+        position: absolute;
+        top: 38%;
+        left: -40px;
+        border-radius:0 !important;
+        font-size: 35px !important;
+        transition: .3s;
+        height:60px;
+        width:60px;
+    }
+}
+/* ==========================responsive btn on project end======================== */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* =============================logo header start========================= */
+
+.header>a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header>a:hover {
+    color: #FFB607;
+}
+
+.logo {
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.logo>span {
+    font-size: 18px;
+}
+
+.logo>font {
+    transition: .3s;
+    font-size: 18px;
+    color: rgba(0, 0, 0, .6);
+}
+
+.logo>font:hover {
+    color: #FFB607;
+}
+
+/* =============================logo header end========================= */
+
+/* =============================slider section start======================= */
+.slider {
+    position: relative;
+    background-image: url(./image/banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    padding: 200px 0px;
+    height: 700px;
+}
+
+.slider_show {
+    text-align: center;
+}
+
+
+.slider_show>p {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.theme_btn {
+    padding: 20px 35px;
+}
+
+.theme_btn>a {
+    text-decoration: none;
+    text-align: center;
+    background-color: #FFB607;
+    padding: 15px 45px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.theme_btn>a:hover {
+    background-color: #000000;
+    transition: .3s;
+}
+
+
+
+
+#Main_slider.owl-carousel .owl-nav button.owl-prev:hover,
+#Main_slider.owl-carousel .owl-nav button.owl-next:hover {
+    background-color: #FFB607 !important;
+}
+
+/* =============================slider section end======================= */
+
+/* ==============================our services sec start============================= */
+.our_layout {
+    padding-top: 90px !important;
+    text-align: center;
+    margin-bottom: 200px !important;
+}
+
+.layout_info>p {
+    font-weight: 400;
+    font-size: 17px !important;
+    word-spacing: 2px;
+}
+
+.layout_info>a {
+    text-decoration: none;
+    background-color: #FFB607;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 500;
+    transition: .3s;
+}
+
+/* .layout_info>a:hover {
+    background-color: #000000;
+} */
+
+
+/* ==============================our services sec end============================= */
+
+/* ===============================about sec start================================== */
+.about_bgcolor {
+    margin-top: 50px !important;
+    background-color: #FFB607;
+}
+
+.about_us {
+    padding: 60px 0px;
+}
+
+.about_us h1,
+.about_us p {
+    color: #FFFFFF !important;
+}
+
+.about_us h1 {
+    margin: 20px 0px 60px;
+}
+
+.about_us p {
+    font-size: 16px;
+    width: 85%;
+    line-height: 25px;
+    padding-bottom: 60px;
+}
+
+.about_btn>a {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: .3s;
+    margin-bottom: 10px;
+    font-size:18px;
+}
+
+.about_btn>a:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.about_img {
+    width: 50%;
+    text-align: end;
+}
+
+.about_img>img {
+    width: 90%;
+    object-fit: cover;
+}
+
+/* ===============================about sec end================================== */
+
+
+/* ==============================FURNITURES sec start================================ */
+.furnitures {
+    margin-top: 100px !important;
+    margin-bottom:50px !important;
+}
+.furnitures_info{
+    position: relative;
+}
+.info_search > span{
+    background-color:#FFB607 !important;
+    color: #FFFFFF;
+    font-size:30px;
+    padding:20px 30px;
+    font-weight:700 !important;
+    border-radius: 50%;
+    position: absolute;
+    top:130px;
+    left:240px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+.furnitures_info:hover .info_search>span{
+    visibility: visible;
+    opacity: 1;
+}
+.furnitures_info>h6 {
+    width: 100% !important;
+    color: #FFB607;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 30px 0px 20px !important;
+}
+
+.furnitures_info>p {
+    font-size: 20px;
+    color: #121111;
+    z-index: 10;
+}
+
+/* ==============================FURNITURES sec end================================ */
+/* ==============================who we are sec start============================== */
+.who_we{
+    margin-top: 100px;
+    background-image: url(./image/who.png);
+    color: #FFFFFF !important;
+    text-align: center;
+    padding: 70px 0px;
+}
+.who_we_info>h1{
+    padding-bottom: 30px !important;
+}
+.who_we_info> font{
+    font-weight:500;
+    padding:50px 0px !important;
+}
+.who_we_info >p{
+    font-size:18px;
+    padding: 50px 0px 80px!important;
+}
+
+/* ==============================who we are sec end============================== */
+
+/* ==========================our project sec start============================= */
+.project{
+    margin: 70px 0px 100px;
+}
+.project_name{
+    margin-top: 80px !important;
+}
+.project_name h1{
+    padding-bottom:15px !important;
+}
+
+#project.owl-carousel .owl-nav button.owl-prev:hover,
+#project.owl-carousel .owl-nav button.owl-next:hover{
+    background-color :#FFB607 !important;
+}
+.image{
+    position: relative;
+}
+.image_a{
+    position: relative;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(transparent,rgba(255,255,255,.1));
+    background-color: rgba(255, 182, 7,.7);
+    transition: .3s;
+    opacity:0;
+}
+.image_a > a{
+    position: relative;
+    top:180px;
+    left: 110px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size:18px;
+    text-decoration: none;
+    border:2px solid #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+.image p{
+    position: absolute;
+    bottom: 0px;
+    right:60px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+}
+.image:hover .image_a{
+    opacity: 1;
+}
+/* ==========================our project sec end============================= */
+
+/* ===========================SAYS OUR CLIENTS start=========================== */
+.client_infom {
+    border: 1px solid black;
+    padding:10px 0px;
+}
+.client_img{
+    width:20%;
+}
+.info_user >p{
+    width:90%;
+    font-size:18px;
+}
+.owl-theme .owl-dots .owl-dot span{
+    background:#FFB607 !important;
+    height:20px !important;
+    width:20px !important;
+   
+
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    background:#121111 !important;
+}
+/* ===========================SAYS OUR CLIENTS end=========================== */
+
+/* ===========================contact us sec start============================= */
+.contact_us{
+    background-image: url('./image/contact-bg.png');
+    padding:130px 0px;
+}
+.form > h2{
+    text-align: start;
+    color: #FFFFFF;
+    margin-bottom:40px;
+}
+
+.form > .send{
+    margin-top: 50px;
+}
+.form > .send > a{
+    border: 2px solid #FFFFFF;
+    text-align: start;
+    text-decoration: none;
+    color:gray;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    transition: .3s;
+}
+.form > .send > a:hover{
+    background-color: #FFFFFF;
+}
+/* ===========================contact us sec end============================= */
+
+/* ==========================footer sec start==================================== */
+.footer{
+    background-color: #313131;
+    padding: 40px 0px  60px;
+}
+.footer_info{
+    padding:0px 60px;
+    color: #FFFFFF;
+}
+.footer_info >p{
+    width: 61%;
+}
+.footer_info >li{
+    text-decoration: none !important;
+}
+.last_footer{
+    background-color:#FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 0px 10px;
+}
+
+/* ==========================footer sec end==================================== */
